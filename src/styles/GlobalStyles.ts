@@ -1,0 +1,108 @@
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
+
+const GlobalStyles = createGlobalStyle`
+  ${reset}
+  html, body, div, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --white: #fff;
+    --black: #000;
+    --blue50: #e8f3ff;
+    --blue200: #90c2ff;
+    --blue100: #c9e2ff;
+    --blue300: #64a8ff;
+    --blue400: #4593fc;
+    --blue500: #3182f6;
+    --blue600: #2272eb;
+    --blue700: #1b64da;
+    --blue800: #1957c2;
+    --blue900: #194aa6;
+    --red50: #ffebee;
+    --red100: #ffcdd2;
+    --red200: #ef9a9a;
+    --red300: #e57373;
+    --red400: #ef5350;
+    --red500: #f44336;
+    --red600: #e53935;
+    --red700: #d32f2f;
+    --red800: #c62828;
+    --red900: #b71c1c;
+    --orange50: #fff3e0;
+    --orange100: #ffe0b2;
+    --orange200: #ffcc80;
+    --orange300: #ffb74d;
+    --orange400: #ffa726;
+    --orange500: #ff9800;
+    --orange600: #fb8c00;
+    --orange700: #f57c00;
+    --orange800: #ef6c00;
+    --orange900: #e65100;
+    --yellow50: #fffde7;
+    --yellow100: #fff9c4;
+    --yellow200: #fff59d;
+    --yellow300: #fff176;
+    --yellow400: #ffee58;
+    --yellow500: #ffeb3b;
+    --yellow600: #fdd835;
+    --yellow700: #fbc02d;
+    --yellow800: #f9a825;
+    --yellow900: #f57f17;
+    --purple50: #f3e5f5;
+    --purple100: #e1bee7;
+    --purple200: #ce93d8;
+    --purple300: #ba68c8;
+    --purple400: #ab47bc;
+    --purple500: #9c27b0;
+    --purple600: #8e24aa;
+    --purple700: #7b1fa2;
+    --purple800: #6a1b9a;
+    --purple900: #4a148c;
+    --teal50: #e1f0f2;
+    --teal100: #b1dade;
+    --teal200: #81c7cc;
+    --teal300: #4caeb5;
+    --teal400: #269da6;
+    --teal500: #008c96;
+    --teal600: #00818a;
+    --teal700: #007278;
+    --teal800: #006369;
+    --teal900: #004d4d;
+    --green50: #e5fff4;
+    --green100: #abf2d4;
+    --green200: #5ae9ad;
+    --green300: #1cd98a;
+    --green400: #05c072;
+    --green500: #00a661;
+    --green600: #009959;
+    --green700: #008a50;
+    --green800: #007544;
+    --green900: #005c36;
+    --whiteOpacity50: rgba(209,209,253,0.05);
+    --whiteOpacity100: rgba(217,217,255,0.11);
+    --whiteOpacity200: rgba(222,222,255,0.19);
+    --whiteOpacity300: rgba(224,224,255,0.27);
+    --whiteOpacity400: rgba(232,232,253,0.36);
+    --whiteOpacity500: rgba(242,242,255,0.47);
+    --whiteOpacity600: rgba(248,248,255,0.6);
+    --whiteOpacity700: rgba(253,253,255,0.75);
+    --whiteOpacity800: rgba(253,253,254,0.89);
+    --whiteOpacity900: #fff;
+    --inverseGrey50: #202027;
+    --inverseGrey100: #2c2c35;
+    --inverseGrey200: #3c3c47;
+    --inverseGrey300: #4d4d59;
+    --inverseGrey400: #62626d;
+    --inverseGrey500: #7e7e87;
+    --inverseGrey600: #9e9ea4;
+    --inverseGrey700: #c3c3c6;
+    --inverseGrey800: #e4e4e5;
+    --inverseGrey900: #fff;
+  }
+`;
+
+export default GlobalStyles;
